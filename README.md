@@ -58,7 +58,7 @@ Most basic web applications fail or slow down when many users access them simult
                   ▼                         ▼
           ┌──────────────┐         ┌──────────────┐
           │  Prometheus  │         │   Grafana    │
-          │  (Port 9090) │────────▶│  (Port 3000) │
+          │  (Port 9090) │────────▶│  (Port 3000) 
           │  Metrics     │         │  Dashboard   │
           └──────────────┘         └──────────────┘
 ```
@@ -330,7 +330,3 @@ VITE_API_URL=http://localhost:80
 - GitHub: [@Rajyadav999](https://github.com/Rajyadav999)
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
